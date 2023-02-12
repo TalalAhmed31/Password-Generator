@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+* {
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%; /*In order to make a
+    full height fixed image*/
+}
+
+body {
+    background-image: url("bg-img.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'muli', sans-serif;
+    min-height: 100vh;
+}
+.container{
+    background-color: #000000b7;
+    padding: 20px;
+    width: 350px;
+    max-width: 100%;
+    /* box-shadow: ; */
+}
+.result-container{
+    background-color: #169d1668;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 12px 10px;
+	height: 50px;
+	width: 100%;
+}
+.result-container #result {
+    word-wrap: break-word;
+  max-width: calc(100% - 40px);
+}
+h2{
+    text-align: center;
+    margin: 10px 0 20px;
+}
+
+input[type=checkbox] {
+	margin-right: 0;
+}
+
+.setting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+.btn-large{
+    width: 100%;
+    display: block;
+}
+.result-container .btn{
+    position: absolute;
+    top: 5px;
+	right: 5px;
+    height: 40px;
+    width: 40px;
+}
+.btn{
+    color: #fff;
+    background-color: #042d04;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
